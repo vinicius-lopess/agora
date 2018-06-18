@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix \"./{src,backend}/**/*.js\"",
+    "lint:fix": "npm run lint -- --fix"
     "prettier": "prettier --write \"./{src,backend}/**/*.{js,scss}\"",
+    "prettier:check": "npm run prettier -- -l",
+    "prettier:write": "npm run prettier -- --write",
     "start": "node src/index",
     "test": "cross-env NODE_ENV=test mocha --recursive",
     "test:coverage": "nyc --reporter=html --reporter=text npm run test"
