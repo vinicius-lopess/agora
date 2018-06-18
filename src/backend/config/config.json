@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "agoramasterdb",
+    "password": "agoradb@2018",
+    "database": "daagorabrokerdev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "agoramasterdb",
+    "password": "agoradb@2018",
+    "database": "daagorabrokertest",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "agoramasterdb",
+    "password": "agoradb@2018",
+    "database": "daagorabroker",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

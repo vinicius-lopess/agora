@@ -1,0 +1,5 @@
+module.exports = {
+    DATABASE_PASSWORD: 'agora',
+    FOREST_ENV_SECRET: 'cdc4fe0d56e801aa058ad539b9be46ec33a6f2c8e05504640ba437c412355b90',
+    FOREST_AUTH_SECRET: 'FeilrBCq8210437KyGdidAEz63pliGqb'
+};
